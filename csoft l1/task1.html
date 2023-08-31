@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body{
+            background-image: url("data:image/jpeg;base64,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");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-position:center;
+        }
+        .containt{
+            
+            background-color: rgba(255, 139, 44, 0.637);
+        }
+        .img{
+            
+            box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+        }
+        ul li{
+            list-style-type: none;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="container my-5 ">
+    <div class="row justify-content-center containt">
+            <div class="h5 text-center mt-5">
+                Chhatrapati Sambhaji Maharaj: A Glorious Legacy of Bravery and Resilience
+            </div>
+
+<h1 class="text-center">Chhatrapati Sambhaji Maharaj</h1>
+
+<div class="row w-50 justify-content-center my-3 img">
+    <img src="maharaj.jpg" alt="" width="50%" class="img">
+</div>
+
+<div class="row justify-content-center">
+    <div class="text-center h3 fw-bold mt-3 col-10">वाघाचा बछडा वाघासारखाच जगतो आणि वाघासारखाच मारतो…. तो वाघ म्हणजे छत्रपती <span >संभाजी महाराज</span>
+</div>
+</div>
+
+<ul >
+<li>
+<label class="h3">1. Introduction</label>
+<div class="text-justify">Chhatrapati Sambhaji Maharaj, the courageous warrior and noble ruler, left an indelible mark on history with his unwavering valor, dedication to his people, and resilience in the face of adversity. As the eldest son of the legendary Chhatrapati Shivaji Maharaj, Sambhaji Maharaj carried forward his father's legacy while forging his own path of leadership and sacrifice. <br><br>
+</div>
+</li>
+
+<li>
+<label class="h3">2. Early Life and Challenges</label>
+<div class="">Born on 14 May 1656 at Purandar Fort, Sambhaji Maharaj grew up in the tumultuous times of the Maratha Empire. His upbringing was shaped by the teachings of his father, emphasizing the values of righteousness, courage, and duty towards his subjects. <br><br></div>
+</li>
+
+<li>
+<label class="h3">3. Rule and Leadership</label>
+<div>After ascending to the throne following his father's passing, Chhatrapati Sambhaji Maharaj faced immense challenges as the ruler of the Maratha Empire. Despite facing constant threats from the Mughal Empire, he displayed exceptional leadership skills, military prowess, and a deep sense of commitment to his people. <br><br></div>
+</li>
+
+<li>
+<label class="h3">4. Valor in the Face of Adversity</label>
+<div class="">Sambhaji Maharaj's reign was marked by numerous battles and skirmishes as he valiantly defended his kingdom. His courage and strategic brilliance were evident in his ability to repel invasions, protect his subjects, and maintain the sovereignty of the Maratha realm. <br><br></div>
+</li>
+
+<li>
+<label class="h3">5. Contributions to Art and Culture</label>
+<div class="">Beyond his military feats, Sambhaji Maharaj was also a patron of arts and culture. He encouraged the growth of literature, music, and architecture, fostering an environment where creativity could flourish. His support for artists and scholars enriched Maratha culture during his rule. <br><br></div>
+</li>
+
+<li>
+<label class="h3">6. Imprisonment and Sacrifice</label>
+<div class="">In the face of adversity, Chhatrapati Sambhaji Maharaj displayed unwavering strength even when captured by his enemies. Despite enduring severe torture and hardships during his captivity, he refused to compromise his principles and remained steadfast in his loyalty to his people and his heritage.<br><br></div>
+</li>
+
+<li>
+<label class="h3">7. Enduring Legacy</label>
+<div class="">Chhatrapati Sambhaji Maharaj's legacy lives on as a symbol of courage, sacrifice, and resilience. His determination to uphold the principles of justice and freedom continues to inspire generations, serving as a reminder of the heights of human potential in the face of challenges. <br><br></div>
+</li>
+
+<li>
+<label class="h3">8. Remembering a Hero</label>
+<div class=" mb-5">As we pay tribute to Chhatrapati Sambhaji Maharaj, let us honor his memory by emulating his values of bravery, leadership, and compassion. His life story serves as a beacon of light, guiding us through difficulties and motivating us to stand tall in the pursuit of our goals.</div>
+</li>
+</ul>
+</div>
+
+</div>
+
+
+</body>
+</html>
